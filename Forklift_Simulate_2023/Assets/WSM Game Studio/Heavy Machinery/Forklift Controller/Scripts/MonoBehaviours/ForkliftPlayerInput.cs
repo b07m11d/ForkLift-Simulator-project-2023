@@ -102,11 +102,11 @@ namespace WSMGameStudio.HeavyMachinery
             if (GetAllJoysEvent.DegreeBar_Rz_傾斜 ==0) _mastTilt = 0;
             if (GetAllJoysEvent.DegreeBar_Rz_傾斜 > 0)
             {
-                if (GetAllJoysEvent.DegreeBar_Rz_傾斜 < 2)
+                if (GetAllJoysEvent.DegreeBar_Rz_傾斜 < 3f)
                 {
                     _mastTilt = 0;
                 }
-                else if (GetAllJoysEvent.DegreeBar_Rz_傾斜 >= 2)
+                else if (GetAllJoysEvent.DegreeBar_Rz_傾斜 >= 3f)
                 {
                     _mastTilt = -1;
                     Debug.Log("Hi" + GetAllJoysEvent.DegreeBar_Rz_傾斜);

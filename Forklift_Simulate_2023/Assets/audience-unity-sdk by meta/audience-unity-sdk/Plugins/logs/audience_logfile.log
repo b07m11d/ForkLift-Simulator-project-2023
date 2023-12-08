@@ -1,24 +1,24 @@
-[23-11-22 16:52:51.676][I][Audience API] Audience Plugin config path:(D:\D-UnityProj\Forklift_Simulate_project-master TEST20230917\Assets\audience-unity-sdk by meta\audience-unity-sdk\Plugins\audience_config.json).
-[23-11-22 16:52:51.676][W][Audience API] API LoadConfig fail, audience config not exist.
-[23-11-22 16:52:51.676][E][Audience API] API Init(), LoadConfig fail, audience error code:4. Use default config and keep going.
-[23-11-22 16:52:51.676][I][Audience API] Modules Version:0.48.885
-[23-11-22 16:52:51.676][I][Audience API] Plugin Version:0.48.957
-[23-11-22 16:52:51.676][I][Audience API] enable_webrtc_log:(false), level:(debug).
-[23-11-22 16:52:51.676][I][Audience API] apiserver url:().
-[23-11-22 16:52:51.676][I][Audience API] webserver url:().
-[23-11-22 16:52:51.676][I][Audience API] sfuserver url:().
-[23-11-22 16:52:51.676][I][Audience API] discord invitation url:().
-[23-11-22 16:52:51.676][I][Audience API] twitter invitation url:().
-[23-11-22 16:52:51.676][I][Audience API] enable_total_stats:(false), frequency:(1).
-[23-11-22 16:52:51.676][I][Audience API] enable_latest_stats:(false), frequency:(1).
-[23-11-22 16:52:51.676][I][class audience::streamsdk::AudienceManager] AudienceManager init.
-[23-11-22 16:52:51.676][I][class audience::streamsdk::AudienceManager] Default apiserver : (https://audience-apim.azure-api.net)
-[23-11-22 16:52:51.676][I][class audience::streamsdk::AudienceManager] Default webserver : (https://www.meta-audience.com)
-[23-11-22 16:52:51.676][I][class audience::streamsdk::AudienceManager] Default sfuserver : (https://sfu.meta-audience.com)
-[23-11-22 16:52:51.676][I][class audience::streamsdk::AudienceManager] Default discord invitation url : (https://discord.com/invite/T2aKHMGbU2)
-[23-11-22 16:52:51.676][I][class audience::streamsdk::AudienceManager] Default twitter invitation url : (https://twitter.com/AudienceVr)
-[23-11-22 16:52:51.677][I][class audience::device::GraphicsDeviceManagerD3D11] client device[17] created. total:[17]
-[23-11-22 17:10:40.187][E][class audience::streamsdk::AudienceStreamer] StopStream() doesn't on started state, audience error code:7.
-[23-11-22 17:10:40.187][E][Audience API] API Stop failed while calling StopStream(), audience error code:7.
-[23-11-22 17:10:40.188][W][class audience::streamsdk::AudienceUserBehaviorManager] SendUserBehaviorEvent() send fail, manager had been disabled.
-[23-11-22 17:10:40.188][W][class audience::streamsdk::AudienceManager] DeInit() audience manager can't be deinited before inited.
+[23-12-08 22:19:23.931][I][Audience API] Audience Plugin config path:(D:\D-UnityProj\ForkLift-Simulator-project.OLD\Forklift_Simulate_2023\Assets\audience-unity-sdk by meta\audience-unity-sdk\Plugins\audience_config.json).
+[23-12-08 22:19:23.931][W][Audience API] API LoadConfig fail, audience config not exist.
+[23-12-08 22:19:23.931][E][Audience API] API Init(), LoadConfig fail, audience error code:4. Use default config and keep going.
+[23-12-08 22:19:23.931][I][Audience API] Modules Version:0.48.885
+[23-12-08 22:19:23.931][I][Audience API] Plugin Version:0.48.957
+[23-12-08 22:19:23.931][I][Audience API] enable_webrtc_log:(false), level:(debug).
+[23-12-08 22:19:23.931][I][Audience API] apiserver url:().
+[23-12-08 22:19:23.931][I][Audience API] webserver url:().
+[23-12-08 22:19:23.931][I][Audience API] sfuserver url:().
+[23-12-08 22:19:23.931][I][Audience API] discord invitation url:().
+[23-12-08 22:19:23.931][I][Audience API] twitter invitation url:().
+[23-12-08 22:19:23.931][I][Audience API] enable_total_stats:(false), frequency:(1).
+[23-12-08 22:19:23.931][I][Audience API] enable_latest_stats:(false), frequency:(1).
+[23-12-08 22:19:23.931][I][class audience::streamsdk::AudienceManager] AudienceManager init.
+[23-12-08 22:19:23.931][I][class audience::streamsdk::AudienceManager] Default apiserver : (https://audience-apim.azure-api.net)
+[23-12-08 22:19:23.931][I][class audience::streamsdk::AudienceManager] Default webserver : (https://www.meta-audience.com)
+[23-12-08 22:19:23.931][I][class audience::streamsdk::AudienceManager] Default sfuserver : (https://sfu.meta-audience.com)
+[23-12-08 22:19:23.931][I][class audience::streamsdk::AudienceManager] Default discord invitation url : (https://discord.com/invite/T2aKHMGbU2)
+[23-12-08 22:19:23.931][I][class audience::streamsdk::AudienceManager] Default twitter invitation url : (https://twitter.com/AudienceVr)
+[23-12-08 22:19:23.931][I][class audience::device::GraphicsDeviceManagerD3D11] client device[7] created. total:[7]
+[23-12-08 22:26:00.757][E][class audience::streamsdk::AudienceStreamer] StopStream() doesn't on started state, audience error code:7.
+[23-12-08 22:26:00.757][E][Audience API] API Stop failed while calling StopStream(), audience error code:7.
+[23-12-08 22:26:00.758][W][class audience::streamsdk::AudienceUserBehaviorManager] SendUserBehaviorEvent() send fail, manager had been disabled.
+[23-12-08 22:26:00.758][W][class audience::streamsdk::AudienceManager] DeInit() audience manager can't be deinited before inited.
