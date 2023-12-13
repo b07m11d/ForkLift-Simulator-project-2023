@@ -114,20 +114,31 @@ namespace WSMGameStudio.HeavyMachinery
             }
             //_mastTilt = -1;
             //Pot 1
-            if (GetAllJoysEvent.UpDownBar_Ry_升降 < 0) {
-                if (GetAllJoysEvent.UpDownBar_Ry_升降 > -2)
+            if (GetAllJoysEvent.UpDownBar_Ry_升降 < 0) _forksVertical = -1;{
+                if (GetAllJoysEvent.UpDownBar_Ry_升降 > -3)
                 {
                     _forksVertical = 0;
                 }
-                else if (GetAllJoysEvent.UpDownBar_Ry_升降 <= -2)
+                else if (GetAllJoysEvent.UpDownBar_Ry_升降 <= -3)
                 {
                     _forksVertical = -1;
                     //Debug.Log("Hi" + GetAllJoysEvent.DegreeBar_Rz_傾斜);
                 }
-            }
-            
+            }            
             if (GetAllJoysEvent.UpDownBar_Ry_升降 ==0) _forksVertical = 0;
-            if (GetAllJoysEvent.UpDownBar_Ry_升降 >0) _forksVertical = 1;
+            if (GetAllJoysEvent.UpDownBar_Ry_升降 >0)
+            {
+                if (GetAllJoysEvent.UpDownBar_Ry_升降 < 3)
+                {
+                    _forksVertical = 0;
+                }
+                else if (GetAllJoysEvent.UpDownBar_Ry_升降 >= 3)
+                {
+                    //_forksVertical = -1;
+                    _forksVertical = 1;
+                    //Debug.Log("Hi" + GetAllJoysEvent.DegreeBar_Rz_傾斜);
+                }
+            }
 
             //改羅技
             //if (logtichControl.BackMove) _backFront = 1;

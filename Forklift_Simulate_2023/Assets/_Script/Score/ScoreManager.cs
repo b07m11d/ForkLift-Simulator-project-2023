@@ -444,33 +444,42 @@ public class ScoreManager : MonoBehaviour
     }
 
     /// <summary>
-    /// 貨物放到貨架上
+    /// 貨物可以放到貨架上
     /// </summary>
     void GoodsOnShelfOK()
     {
-        if (IfGoodsOnShelf.isGoodsOnMe_sf == true && isGoodsOnShelfOK == false && GoodsOnShelfOK_C == 0)
+        if (IfGoodsOnShelf.isGoodsOnMe_sf == true && isGoodsOnShelfOK == false)  // && GoodsOnShelfOK_C == 0
         {
-            GoodsOnShelfOK_C += 1;
-            //return;
-        }
-        /*else if (IfGoodsOnShelf.isGoodsOnMe_sf == false && isGoodsOnShelfOK == true)
-        {
-            //isCheckOnRoadLine = false;
-            isGoodsOnShelfOK = false;            
-        }*/
+            if (StartPoint.isOnStartPoint_Forkift == false)
+            {
+                OnGoodsOnShelfOK(GoodsOnShelfOK_C);
+                PlayWrongVoice(wrongVoice[15]);  //ding
+                isGoodsOnShelfOK = true;
+                GoodsOnShelfOK_C += 1;
+            }
 
-        if (IfGoodsOnShelf.isGoodsOnMe_sf == true && isGoodsOnShelfOK == false && GoodsOnShelfOK_C >= 2)
-        {
-            OnGoodsOnShelfOK(GoodsOnShelfOK_C);
-            PlayWrongVoice(wrongVoice[15]);  //ding
-            isGoodsOnShelfOK = true;
-            GoodsOnShelfOK_C += 1;
+            //return;
         }
         else if (IfGoodsOnShelf.isGoodsOnMe_sf == false && isGoodsOnShelfOK == true)
         {
             //isCheckOnRoadLine = false;
             isGoodsOnShelfOK = false;
         }
+
+        /*else if (IfGoodsOnShelf.isGoodsOnMe_sf == false && isGoodsOnShelfOK == true)
+        {
+            //isCheckOnRoadLine = false;
+            isGoodsOnShelfOK = false;            
+        }*/
+
+        /*if (IfGoodsOnShelf.isGoodsOnMe_sf == true && isGoodsOnShelfOK == false)    // && GoodsOnShelfOK_C >= 2
+        {
+            OnGoodsOnShelfOK(GoodsOnShelfOK_C);
+            PlayWrongVoice(wrongVoice[15]);  //ding
+            isGoodsOnShelfOK = true;
+            GoodsOnShelfOK_C += 1;
+        }*/
+
     }
 
     /// <summary>
