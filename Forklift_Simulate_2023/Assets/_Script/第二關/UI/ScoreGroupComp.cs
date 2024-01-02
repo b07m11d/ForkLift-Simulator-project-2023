@@ -72,7 +72,7 @@ public class ScoreGroupComp : MonoBehaviour
     string GoodTouchFloorScoreTxt = "貨物置放於地面調整";
     //========第三關====================2023-11-06 by lin liang yu
     string AlmostTouchTxt = "[不扣分]堆高機快要碰到柱子或壓線";
-    string ForkInsertGoodsTxt = "學員可以升起棧板";
+    string ForkInsertGoodsTxt = "學員可以操作升降貨叉";
     string GoodsOnShelfTxt = "學員可以開始放置貨物";
     bool isForkliftAlmostTouch = false;
     bool isForkInsertGoods = false;
