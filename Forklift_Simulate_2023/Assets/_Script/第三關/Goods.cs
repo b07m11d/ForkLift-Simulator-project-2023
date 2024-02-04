@@ -8,7 +8,7 @@ public class Goods : MonoBehaviour
     float limeit_Ground_Distance = 0.08f;
 
     float Good_BackFork_Distance;
-    float limeit_BackFork_Distance = 1.7f;
+    float limeit_BackFork_Distance = 1.88f;
 
 
     public static bool isTouchFrokleft;

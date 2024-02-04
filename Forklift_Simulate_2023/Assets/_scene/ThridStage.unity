@@ -20576,7 +20576,7 @@ GameObject:
   - component: {fileID: 6726896759763925436}
   - component: {fileID: 6726896759761987197}
   m_Layer: 0
-  m_Name: Box1251
+  m_Name: Box1251 1st goods line
   m_TagString: GroundGoodLine
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20610,7 +20610,7 @@ GameObject:
   - component: {fileID: 6726896759761987199}
   - component: {fileID: 6726896759761987200}
   m_Layer: 11
-  m_Name: Ground
+  m_Name: Ground yellow lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20951,7 +20951,7 @@ GameObject:
   - component: {fileID: 6726896759762926480}
   - component: {fileID: 6726896759763925456}
   m_Layer: 0
-  m_Name: Box1050
+  m_Name: Box1050 dotted line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
