@@ -17337,7 +17337,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379232233}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &379232235
 Camera:
   m_ObjectHideFlags: 0
@@ -28283,12 +28283,12 @@ MonoBehaviour:
     - {fileID: 7159730499693952632, guid: 4864ad848a71d6841b73b1482b242db5, type: 3}
   - QuestionID: 11
     IconSprtie: {fileID: 21300000, guid: 2343875085ecb2740983b88743a84554, type: 3}
-    TitleTxt: "\u8F2A\u80CE\u56FA\u5B9A\u87BA\u6813"
+    TitleTxt: "\u8F2A\u80CE\u56FA\u5B9A\u87BA\u7D72"
     DiscririonAuioClip: {fileID: 8300000, guid: 2cb3ca1b1089156458b8f053b518f95f,
       type: 3}
     SubQuestChooseBtnObj:
-    - {fileID: 7193137629594587232, guid: 146a3e9a3e09bca46a60e5fdc6ef7bac, type: 3}
     - {fileID: 6844809335227208085, guid: 4379d169e6a06374f85cfbb41386c089, type: 3}
+    - {fileID: 7193137629594587232, guid: 146a3e9a3e09bca46a60e5fdc6ef7bac, type: 3}
     - {fileID: 6437387916335337246, guid: 6367ce53b2644ed4b9be2a6bbccd6b5f, type: 3}
     - {fileID: 3403628319991994628, guid: f0f068d71e80af349935002b9badacfe, type: 3}
   - QuestionID: 12
@@ -28320,8 +28320,8 @@ MonoBehaviour:
       type: 3}
     SubQuestChooseBtnObj:
     - {fileID: 5034795117680766213, guid: 5898e49c506366e4da2ffabef812d11c, type: 3}
-    - {fileID: 7893205367122527080, guid: 2fcdf2675367c4847ac7ab392c8c5a62, type: 3}
     - {fileID: 1884483248985180530, guid: a8f3653572a39f643b851ae0b329f8ee, type: 3}
+    - {fileID: 7893205367122527080, guid: 2fcdf2675367c4847ac7ab392c8c5a62, type: 3}
     - {fileID: 7208237706125675356, guid: b682421bb7409ac47b84ea846b3898d9, type: 3}
   - QuestionID: 16
     IconSprtie: {fileID: 21300000, guid: 9326c416c2617a3429d6772bd4bca39c, type: 3}
@@ -72957,6 +72957,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InitCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4848695075152527372, guid: 33e60b47e791b9740aed2ef7b232aac0,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33e60b47e791b9740aed2ef7b232aac0, type: 3}
 --- !u!1 &1422075696
@@ -90032,7 +90037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: New Text 0123
 --- !u!222 &1773949739
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -115164,7 +115169,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: New Text 0123
 --- !u!222 &4421489365261880562
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -117859,7 +117864,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4459864851380893030}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!1 &4459864851380893030
 GameObject:
   m_ObjectHideFlags: 0
