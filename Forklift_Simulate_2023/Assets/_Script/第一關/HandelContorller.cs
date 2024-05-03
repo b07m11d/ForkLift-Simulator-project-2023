@@ -434,17 +434,18 @@ public class HandelContorller : MonoBehaviour
                  
                     if (isPushRedDot )
                     {
-                        oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, 20, 70f * Time.deltaTime);
+                        //oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, 20, 500f * Time.deltaTime); //原本是壓著才會作動
+                        oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, 20, 100f);
                     }
                 }
                 else//在解煞車點
                 {
                     if (isPushRedDot)
                     {
-                        oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, -5, 70f * Time.deltaTime);
-
+                        //oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, -5, 70f * Time.deltaTime);
+                        oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, -5, 100f);
                         //oriTemp_HandBrake = -5;
-                   
+
                     }
                 }
 
@@ -518,7 +519,7 @@ public class HandelContorller : MonoBehaviour
             }
             else
             {
-                oriTemp_Cluth = Mathf.MoveTowards(oriTemp_Cluth, 0, 70f * Time.deltaTime);
+                oriTemp_Cluth = Mathf.MoveTowards(oriTemp_Cluth, 0, 70f * Time.deltaTime); 
 
                 Destroy(TipObj_abNormalCluthPadel);
             }
@@ -599,8 +600,8 @@ public class HandelContorller : MonoBehaviour
                 if (!isInUnStopBrakeArea)//在原位
                 {
                     if (isPushRedDot)
-                    {                      
-                        //oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, 20, 70f * Time.deltaTime);
+                    {
+                        //oriTemp_HandBrake = Mathf.MoveTowards(oriTemp_HandBrake, 20, 70f * Time.deltaTime);   ////(這邊跟上面的程式很像，但是就是因為壞掉而無法歸位)
                     }
                 }
                 else//在解煞車點

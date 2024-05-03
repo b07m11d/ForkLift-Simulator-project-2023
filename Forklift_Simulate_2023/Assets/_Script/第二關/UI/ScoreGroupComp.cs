@@ -96,9 +96,10 @@ public class ScoreGroupComp : MonoBehaviour
     {
         Debug.Log("===========scoreManager" + scoreManager);
 
+        //第一關機制與第二第三關不同，因此本script 只有控制第二第三關
         switch (SceneManager.GetActiveScene().name)
         {
-            case "MainGameState":
+            case "MainGameState":                     //第二關
                 scoreManager = MainGameManager.Instance.ScoreManagers;
 
                 scoreManager.OnTimeScore += OnTimeScore;
@@ -123,7 +124,7 @@ public class ScoreGroupComp : MonoBehaviour
                 }
 
                 break;
-            case "ThridStage":
+            case "ThridStage":                     //第三關
 
                 scoreManager = StageThreeGameManager.Instance.ScoreManagers;
 
